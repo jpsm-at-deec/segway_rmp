@@ -47,7 +47,8 @@ void handleDebugMessages(const std::string &msg) {ROS_DEBUG("%s",msg.c_str());}
 void handleInfoMessages(const std::string &msg) {ROS_INFO("%s",msg.c_str());}
 void handleErrorMessages(const std::string &msg) {ROS_ERROR("%s",msg.c_str());}
 
-void handleStatusWrapper(segwayrmp::SegwayStatus::Ptr &ss);
+void handleStatusWrapper(segwayrmp::SegwayStatus::Ptr ss){
+}
 
 // ROS Node class
 class SegwayRMPNode {
